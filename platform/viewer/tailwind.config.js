@@ -40,16 +40,16 @@ module.exports = {
       },
 
       primary: {
-        light: '#5acce6',
+        light: '#e06a10', //'#5acce6',
         main: '#0944b3',
-        dark: '#090c29',
-        active: '#348cfd',
+        dark: '#141312', //'#090c29',
+        active: '#e06a10', // '#348cfd',
       },
 
       secondary: {
         light: '#3a3f99',
         main: '#2b166b',
-        dark: '#041c4a',
+        dark: '#000', //'#041c4a',
         active: '#1f1f27',
       },
 

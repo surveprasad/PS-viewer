@@ -13,7 +13,7 @@ window.config = {
           src: '/assets/actonlogo.jpeg',
           width: '160',
           heigth: '80',
-          alt: 'Acton Healthcare',
+          alt: 'ACTON Healthcare',
         })
         //React.createElement('h5', {}, 'Acton Healthcare')
       );

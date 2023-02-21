@@ -52,6 +52,8 @@ COPY . .
 # To restore workspaces symlinks
 RUN yarn install --frozen-lockfile --verbose
 
+ENV APP_CONFIG=config/local_dcm4chee.js
+
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 ENV QUICK_BUILD true
 # ENV GENERATE_SOURCEMAP=false
